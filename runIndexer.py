@@ -10,7 +10,7 @@ from src.parser.loadPDF import loadPDF
 def runIndexer():
     # These are required from NLTK
     print("Checking NLTK data...")
-    nltkDownload("punkt", quiet=True)
+    nltkDownload("punkt_tab", quiet=True)
     nltkDownload("stopwords", quiet=True)
     nltkDownload("wordnet", quiet=True)
 
